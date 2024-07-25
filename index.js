@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
         form.reset();
     });
     function fetchMonsters() {
-        fetch('http://localhost:3000/monsters')
+        fetch('https://monsters-sigma.vercel.app/monsters')
             .then(response => response.json())
             .then(monsters => {
                 monsters.forEach(monster => addMonsterToList(monster));
@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function () {
             description: description
         };
 
-        fetch('http://localhost:3000/monsters', {
+        fetch('https://monsters-sigma.vercel.app/monsters', {
             method: 'POST',
             headers:{
         'Content-Type':'application/json',
