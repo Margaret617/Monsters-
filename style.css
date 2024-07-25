@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 80px;
+    padding: 0;
+}
+
+#createmonster:hover{
+    opacity: 0.6;
+    color:aqua;
+}
+
+table{
+    width: 1000px;
+    margin: 30px auto;
+}
+
+tr , th{
+    padding: 10px 0;
+    background-color:burlywood;
+    border: thin solid;
+}
+
+
